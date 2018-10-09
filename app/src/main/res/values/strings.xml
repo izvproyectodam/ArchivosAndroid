@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aad Archivos</string>
+    <string name="hint">Valor</string>
+    <string name="memExtPriv">Memoria externa privada</string>
+    <string name="memExtPub">Memoria externa pública</string>
+    <string name="memIntPriv">Memoria interna privada</string>
+    <string name="escribir">Escribir</string>
+</resources>

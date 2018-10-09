@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActividadPrincipal">
+
+
+    <EditText
+        android:id="@+id/etValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/hint" />
+
+    <RadioGroup
+        android:id="@+id/rgTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbInPr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/memIntPriv" />
+
+        <RadioButton
+            android:id="@+id/rbExPr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/memExtPriv" />
+
+        <RadioButton
+            android:id="@+id/rbExPu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/memExtPub" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribir" />
+
+</LinearLayout>
